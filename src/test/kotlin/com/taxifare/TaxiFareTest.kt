@@ -11,7 +11,8 @@ class TaxiFareTest {
     fun `generate taxi fare for a booking`() {
         val input = sampleInput_1
         val expected = sampleOutput_1
-        val taxiFareCal: FareGenerator = TaxiFareGenerator()
+
+        val taxiFareCal: FareGenerator = TaxiFareGenerator(DefaultFareFormatter())
         val groundDistanceRepo: DistanceRepository = FileDistanceRepository("sampleDB.txt")
         val distanceCal: DistanceCalculator = GroundDistanceCalculator(groundDistanceRepo)
 

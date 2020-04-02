@@ -3,6 +3,7 @@ package com.taxifare
 typealias FareGenerator = (Distance, Int) -> String
 
 class TaxiFareGenerator(
+    private val outputFormatter: (Fare) -> String,
     private val minimumDistance: Int = 100,
     private val minimumFare: Int = 750,
     private val perUnitDistanceFare: Int = 5
@@ -13,21 +14,12 @@ class TaxiFareGenerator(
             distance,
             headCount,
             calculateFare(distance.distance - minimumDistance, headCount)
-        ).prettify()
+        ).let(outputFormatter)
 
     private fun calculateFare(remainingDistance: Int, headCount: Int) =
         perHeadFare(remainingDistance) * headCount
 
     private fun perHeadFare(remainingDistance: Int) =
         if (remainingDistance <= 0) minimumFare else minimumFare + (remainingDistance * perUnitDistanceFare)
-
-    private fun Fare.prettify() = """
-        |Taxi Ticket
-        |-----------
-        |Source: ${distance.from}
-        |Destination: ${distance.to}
-        |Kms: ${distance.distance}
-        |No. of travellers = $headCount
-        |Total = $fare INR""".trimMargin()
 
 }
