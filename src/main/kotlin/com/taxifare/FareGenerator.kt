@@ -9,12 +9,11 @@ class TaxiFareGenerator : FareGenerator {
     private val perUnitDistanceFare = 5
 
     override fun invoke(distance: Distance, headCount: Int): String =
-        TODO("Need to implement")
-    /*Fare(
-        distance,
-        headCount,
-        calculateFare(distance.distance - minimumDistance, headCount)
-    ).prettify()*/
+        Fare(
+            distance,
+            headCount,
+            calculateFare(distance.distance - minimumDistance, headCount)
+        ).prettify()
 
     private fun calculateFare(remainingDistance: Int, headCount: Int) =
         perHeadFare(remainingDistance) * headCount
