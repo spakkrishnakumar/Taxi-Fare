@@ -19,20 +19,24 @@ repositories {
 }
 
 dependencies {
-    // Align versions of all Kotlin components
+    // Generated dependencies
     implementation platform('org.jetbrains.kotlin:kotlin-bom')
-
-    // Use the Kotlin JDK 8 standard library.
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
-
-    // Use the Kotlin test library.
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
-
-    // Use the Kotlin JUnit integration.
     testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
+
+    // Dev Dependencies
+    implementation 'com.natpryce:hamkrest:1.7.0.0'
+    implementation 'org.junit.jupiter:junit-jupiter:5.6.1'
+
 }
 
 application {
     // Define the main class for the application
     mainClassName = 'TaxiFare.AppKt'
+}
+
+
+test {
+    useJUnitPlatform()
 }
