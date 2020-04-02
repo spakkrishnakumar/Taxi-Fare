@@ -11,7 +11,7 @@ class TaxiFareGeneratorTest {
     @Disabled("Formatting the needs to be implemented")
     fun `should calculate taxi fare using distance and headcount`() {
         val expected = sampleOutput_1
-        val distance = 200
+        val distance = Distance("PUNE", "NASIK", 200)
         val headCount = 2
         val fareGenerator = TaxiFareGenerator()
 

@@ -10,10 +10,10 @@ class GroundDistanceCalculatorTest {
     fun `should calculate ground distance between source and destination`() {
         val expected = 10
         val booking = Booking("My House", "My GirlFriend's House", 1)
-        val distanceCal: (String, String) -> Int = { _, _ -> 10 }
+        val distanceCal: DistanceRepository = { _, _ -> 10 }
         val cal = GroundDistanceCalculator(distanceCal)
 
-        val actual = cal(booking)
+        val actual = cal(booking).distance
 
         assertThat(actual, equalTo(expected))
     }
