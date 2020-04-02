@@ -10,7 +10,7 @@ class TravelBookingTest {
     fun `should generate fare from booking`() {
         val expected = "Your fare is 20"
         val coronaPatients = Booking("Earth", "Heaven", 2)
-        val calFare: (Int, Int) -> String = { distance, headCount -> (distance * headCount).toString() }
+        val calFare: (Int, Int) -> String = { distance, headCount -> "Your fare is ${distance * headCount}" }
         val calDistance: (Booking) -> Int = { _ -> 10 }
 
         val taxi = TravelBooking(calFare, calDistance)
