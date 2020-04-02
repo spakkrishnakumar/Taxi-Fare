@@ -14,7 +14,7 @@ class TaxiFareTest {
         val input = sampleInput_1
         val expected = sampleOutput_1
         val taxiFareCal: (Int, Int) -> String = { _, _ -> TODO("not implemented") }
-        val groundDistanceCal: (String, String) -> Int = { _, _ -> TODO("not implemented") }
+        val groundDistanceCal: DistanceRepository = FileDistanceRepository("sampleDB.txt")
         val distanceCal: DistanceCalculator = GroundDistanceCalculator(groundDistanceCal)
 
         val ula = TravelBooking(taxiFareCal, distanceCal)
