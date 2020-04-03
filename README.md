@@ -13,12 +13,12 @@ View system assumptions below
 
 ### How to run application
 1. Clone https://github.com/spakkrishnakumar/Taxi-Fare to you local system.
-2. Go to the folder and run the cmd `gradle run`
+2. Go to the folder and run the cmd `./gradlew run`
 3. Follow the instructions on the console to use the application
 
 ### How to run test
 1. Clone https://github.com/spakkrishnakumar/Taxi-Fare to you local system.
-2. Go to the folder and run the cmd `gradle clean test`
+2. Go to the folder and run the cmd `./gradlew clean test`
 3. Verify if the build was successful.
 
 ### Assumptions
