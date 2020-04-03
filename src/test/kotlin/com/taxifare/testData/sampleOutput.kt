@@ -1,4 +1,4 @@
-package com.taxifare
+package com.taxifare.testData
 
 val sampleOutput_1 = """
 Taxi Ticket

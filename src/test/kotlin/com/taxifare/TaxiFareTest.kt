@@ -2,14 +2,16 @@ package com.taxifare
 
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
-import org.junit.jupiter.api.Test
+import com.taxifare.testData.sampleOutput_1
+import org.junit.jupiter.params.ParameterizedTest
+import org.junit.jupiter.params.provider.ValueSource
 import sampleInput_1
 
 class TaxiFareTest {
 
-    @Test
-    fun `generate taxi fare for a booking`() {
-        val input = sampleInput_1
+    @ParameterizedTest
+    @ValueSource(strings = [sampleInput_1])
+    fun `generate taxi fare for a booking`(input: String) {
         val expected = sampleOutput_1
 
         val taxiFareCal: FareGenerator = TaxiFareGenerator(DefaultFareFormatter())

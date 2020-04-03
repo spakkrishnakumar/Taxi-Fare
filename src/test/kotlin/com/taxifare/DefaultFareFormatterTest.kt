@@ -2,6 +2,7 @@ package com.taxifare
 
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
+import com.taxifare.testData.sampleOutput_1
 import org.junit.jupiter.api.Test
 
 class DefaultFareFormatterTest {

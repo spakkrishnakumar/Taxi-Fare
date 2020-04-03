@@ -10,10 +10,10 @@ class FileDistanceRepository(
 
     private val dataSource = extractData(fileName)
 
-    override fun invoke(source: String, destination: String): Int =
-        dataSource.find { it.from == source && it.to == destination }
+    override fun invoke(pointA: String, pointB: String): Int =
+        dataSource.find { (it.from == pointA && it.to == pointB) || (it.from == pointB && it.to == pointA) }
             ?.distance
-            ?: throw RuntimeException("Invalid Data in DataSource")
+            ?: 0
 
     private fun extractData(fileName: String): List<Distance> =
         javaClass.getResource("/$fileName")

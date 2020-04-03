@@ -1,1 +1,0 @@
-const val sampleInput_1 = "source=PUNE, destination=NASIK, Travellers = 2"
