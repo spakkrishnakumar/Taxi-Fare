@@ -1,8 +1,11 @@
-package com.taxifare
+package com.taxifare.unittest
 
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
-import com.taxifare.testData.sampleOutput_1
+import com.taxifare.DefaultFareFormatter
+import com.taxifare.Distance
+import com.taxifare.Fare
+import com.taxifare.testdata.sampleOutput_1
 import org.junit.jupiter.api.Test
 
 class DefaultFareFormatterTest {

@@ -1,7 +1,10 @@
-package com.taxifare
+package com.taxifare.unittest
 
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
+import com.taxifare.Booking
+import com.taxifare.DistanceRepository
+import com.taxifare.GroundDistanceCalculator
 import org.junit.jupiter.api.Test
 
 class GroundDistanceCalculatorTest {

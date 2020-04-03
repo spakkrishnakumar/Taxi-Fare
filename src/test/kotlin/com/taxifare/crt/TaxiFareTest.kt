@@ -1,8 +1,9 @@
-package com.taxifare
+package com.taxifare.crt
 
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
-import com.taxifare.testData.sampleOutput_1
+import com.taxifare.*
+import com.taxifare.testdata.sampleOutput_1
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
 import sampleInput_1

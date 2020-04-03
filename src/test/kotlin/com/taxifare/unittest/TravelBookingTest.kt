@@ -1,7 +1,8 @@
-package com.taxifare
+package com.taxifare.unittest
 
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
+import com.taxifare.*
 import org.junit.jupiter.api.Test
 
 class TravelBookingTest {

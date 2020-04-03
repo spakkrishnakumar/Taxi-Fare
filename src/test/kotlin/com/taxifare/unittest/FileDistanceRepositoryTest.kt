@@ -1,7 +1,9 @@
-package com.taxifare
+package com.taxifare.unittest
 
 import com.natpryce.hamkrest.assertion.assertThat
 import com.natpryce.hamkrest.equalTo
+import com.taxifare.Distance
+import com.taxifare.FileDistanceRepository
 import org.junit.jupiter.api.Test
 import kotlin.text.Charsets.UTF_8
 
