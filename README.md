@@ -4,7 +4,7 @@ and returns a Fare Ticket with the applicable charges.
 
 View system assumptions below
 
-#Technology
+#Technologies and languages used
 1. Kotlin
 2. Gradle
 3. Junit 5
