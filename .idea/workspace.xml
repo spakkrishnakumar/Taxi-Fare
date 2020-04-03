@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c9eb6a2-b5dc-4569-8864-d766fd1a09eb" name="Default Changelist" comment="create runnable Console Application">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <list id="7af00141-3a9b-449a-9651-273624a9f685" name="ignoreList" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZyvcgqC1Dhd2e0ZoeJbUHRIuuv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/kotlin/com/taxifare" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.taxifare" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.taxifare" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.taxifare" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/taxifare" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/kotlin/com/taxifare/testData" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/taxifare" />
+      <recent name="$PROJECT_DIR$/src/test/kotlin/com/taxifare" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.TaxiFare [run]">
+    <configuration name="TaxiFare [clean build]" type="GradleRunConfiguration" factoryName="Gradle" activateToolWindowBeforeRun="false">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaxiFare [run]" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
+      <module name="TaxiFare.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.taxifare.AppKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.TaxiFare [clean build]" />
+      <item itemvalue="Kotlin.TaxiFare [run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.TaxiFare [run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c9eb6a2-b5dc-4569-8864-d766fd1a09eb" name="Default Changelist" comment="" />
+      <changelist id="7af00141-3a9b-449a-9651-273624a9f685" name="ignoreList" comment="" />
+      <created>1585824229005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585824229005</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1585831246059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585831246059</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gradle init">
+      <created>1585831525650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585831525650</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add gitignore file">
+      <created>1585831651160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585831651160</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add gitignore file">
+      <created>1585831983404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585831983404</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add failing test - generate taxi fare for a booking">
+      <created>1585834279966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585834279966</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add Bookable Taxi">
+      <created>1585836556362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585836556363</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add failing test - Taxi should generate fare from booking">
+      <created>1585838791245</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585838791245</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add failing test - GroundDistance should calculate distance from booking">
+      <created>1585841034416</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585841034416</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add TravelBooking service">
+      <created>1585844356548</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585844356548</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add GroundDistanceCalculator">
+      <created>1585845334075</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585845334075</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add FileDistanceRepository">
+      <created>1585848813666</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585848813666</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add TaxiFareGenerator">
+      <created>1585851071712</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585851071712</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change expected data for &quot;should calculate taxi fare using distance and headcount&quot;">
+      <created>1585851965970</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585851965970</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change DistanceCalculator to return a Distance">
+      <created>1585853824699</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585853824699</updated>
+    </task>
+    <task id="LOCAL-00015" summary="refactor TravelBookingTest">
+      <created>1585854013228</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585854013228</updated>
+    </task>
+    <task id="LOCAL-00016" summary="refactor TaxiFareGeneratorTest">
+      <created>1585854137468</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1585854137468</updated>
+    </task>
+    <task id="LOCAL-00017" summary="implement TaxiFareTest (CRT) to pass">
+      <created>1585854264315</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585854264315</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor TaxiFareGenerator to have default arguments">
+      <created>1585854376714</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585854376714</updated>
+    </task>
+    <task id="LOCAL-00019" summary="create DefaultFareFormatter to format fare">
+      <created>1585855372406</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585855372406</updated>
+    </task>
+    <task id="LOCAL-00020" summary="parameterized TaxiFareTest">
+      <created>1585879845310</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585879845310</updated>
+    </task>
+    <task id="LOCAL-00021" summary="create InvokableApp">
+      <created>1585881033605</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1585881033605</updated>
+    </task>
+    <task id="LOCAL-00022" summary="create Invokable Application">
+      <created>1585883213065</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1585883213065</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix failing test which was missed out">
+      <created>1585883416530</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1585883416530</updated>
+    </task>
+    <task id="LOCAL-00024" summary="create runnable Console Application">
+      <created>1585884206731</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1585884206731</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="gradle init" />
+    <MESSAGE value="add gitignore file" />
+    <MESSAGE value="add failing test - generate taxi fare for a booking" />
+    <MESSAGE value="add Bookable Taxi" />
+    <MESSAGE value="add failing test - Taxi should generate fare from booking" />
+    <MESSAGE value="add failing test - GroundDistance should calculate distance from booking" />
+    <MESSAGE value="add TravelBooking service" />
+    <MESSAGE value="add GroundDistanceCalculator" />
+    <MESSAGE value="add FileDistanceRepository" />
+    <MESSAGE value="add TaxiFareGenerator" />
+    <MESSAGE value="change expected data for &quot;should calculate taxi fare using distance and headcount&quot;" />
+    <MESSAGE value="change DistanceCalculator to return a Distance" />
+    <MESSAGE value="refactor TravelBookingTest" />
+    <MESSAGE value="refactor TaxiFareGeneratorTest" />
+    <MESSAGE value="implement TaxiFareTest (CRT) to pass" />
+    <MESSAGE value="refactor TaxiFareGenerator to have default arguments" />
+    <MESSAGE value="create DefaultFareFormatter to format fare" />
+    <MESSAGE value="parameterized TaxiFareTest" />
+    <MESSAGE value="create InvokableApp" />
+    <MESSAGE value="create Invokable Application" />
+    <MESSAGE value="fix failing test which was missed out" />
+    <MESSAGE value="create runnable Console Application" />
+    <option name="LAST_COMMIT_MESSAGE" value="create runnable Console Application" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1585847293825">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.896@0.0.1440.896" timestamp="1585847293825" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585885068477">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.896@0.0.1440.896" timestamp="1585885068477" />
+    <state x="507" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1585883473754">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="507" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.896@0.0.1440.896" timestamp="1585883473754" />
+    <state x="457" y="237" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585884543919">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="457" y="237" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.896@0.0.1440.896" timestamp="1585884543919" />
+    <state x="70" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585880322253">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="70" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.896@0.0.1440.896" timestamp="1585880322253" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585843403331">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.896@0.0.1440.896" timestamp="1585843403331" />
+    <state x="494" y="109" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1585854665358">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="494" y="109" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1440.896@0.0.1440.896" timestamp="1585854665358" />
+    <state x="483" y="111" key="#xdebugger.evaluate" timestamp="1585848563219">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="483" y="111" key="#xdebugger.evaluate/0.0.1440.896@0.0.1440.896" timestamp="1585848563219" />
+    <state x="0" y="23" width="1440" height="873" key="CommitChangelistDialog2" timestamp="1585885265684">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="0" y="23" width="1440" height="873" key="CommitChangelistDialog2/0.0.1440.896@0.0.1440.896" timestamp="1585885265684" />
+    <state x="15" y="9" width="1410" height="877" maximized="true" key="DiffContextDialog" timestamp="1585879766994">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="15" y="9" width="1410" height="877" maximized="true" key="DiffContextDialog/0.0.1440.896@0.0.1440.896" timestamp="1585879766994" />
+    <state width="1398" height="526" key="GridCell.Tab.0.bottom" timestamp="1585885261047">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state width="1398" height="526" key="GridCell.Tab.0.bottom/0.0.1440.896@0.0.1440.896" timestamp="1585885261047" />
+    <state width="1398" height="526" key="GridCell.Tab.0.center" timestamp="1585885261046">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state width="1398" height="526" key="GridCell.Tab.0.center/0.0.1440.896@0.0.1440.896" timestamp="1585885261046" />
+    <state width="1398" height="526" key="GridCell.Tab.0.left" timestamp="1585885261045">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state width="1398" height="526" key="GridCell.Tab.0.left/0.0.1440.896@0.0.1440.896" timestamp="1585885261045" />
+    <state width="1398" height="526" key="GridCell.Tab.0.right" timestamp="1585885261046">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state width="1398" height="526" key="GridCell.Tab.0.right/0.0.1440.896@0.0.1440.896" timestamp="1585885261046" />
+    <state width="1398" height="327" key="GridCell.Tab.1.bottom" timestamp="1585856633340">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state width="1398" height="327" key="GridCell.Tab.1.bottom/0.0.1440.896@0.0.1440.896" timestamp="1585856633340" />
+    <state width="1398" height="327" key="GridCell.Tab.1.center" timestamp="1585856633339">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state width="1398" height="327" key="GridCell.Tab.1.center/0.0.1440.896@0.0.1440.896" timestamp="1585856633339" />
+    <state width="1398" height="327" key="GridCell.Tab.1.left" timestamp="1585856633338">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state width="1398" height="327" key="GridCell.Tab.1.left/0.0.1440.896@0.0.1440.896" timestamp="1585856633338" />
+    <state width="1398" height="327" key="GridCell.Tab.1.right" timestamp="1585856633340">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state width="1398" height="327" key="GridCell.Tab.1.right/0.0.1440.896@0.0.1440.896" timestamp="1585856633340" />
+    <state x="483" y="177" key="RollbackChangesDialog" timestamp="1585852132898">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="483" y="177" key="RollbackChangesDialog/0.0.1440.896@0.0.1440.896" timestamp="1585852132898" />
+    <state x="208" y="31" key="SettingsEditor" timestamp="1585877631806">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.896@0.0.1440.896" timestamp="1585877631806" />
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1585878142051">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.896@0.0.1440.896" timestamp="1585878142051" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1585849810380">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.896@0.0.1440.896" timestamp="1585849810380" />
+    <state x="511" y="377" key="VCS.ChangelistChooser" timestamp="1585848745940">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="511" y="377" key="VCS.ChangelistChooser/0.0.1440.896@0.0.1440.896" timestamp="1585848745940" />
+    <state x="602" y="368" key="VCS.EditChangelistDialog" timestamp="1585833953416">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="602" y="368" key="VCS.EditChangelistDialog/0.0.1440.896@0.0.1440.896" timestamp="1585833953416" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585884236626">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.896@0.0.1440.896" timestamp="1585884236626" />
+    <state x="512" y="235" key="chooseDestDirectoryDialog" timestamp="1585840353473">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="512" y="235" key="chooseDestDirectoryDialog/0.0.1440.896@0.0.1440.896" timestamp="1585840353473" />
+    <state x="368" y="207" width="704" height="486" key="find.popup" timestamp="1585884229627">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="368" y="207" width="704" height="486" key="find.popup/0.0.1440.896@0.0.1440.896" timestamp="1585884229627" />
+    <state x="487" y="215" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1585834048433">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="487" y="215" key="git4idea.history.wholeTree.VcsStructureChooser/0.0.1440.896@0.0.1440.896" timestamp="1585834048433" />
+    <state x="499" y="199" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1585854811877">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="499" y="199" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1440.896@0.0.1440.896" timestamp="1585854811877" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585883301562">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.896@0.0.1440.896" timestamp="1585883301562" />
+  </component>
+</project>
