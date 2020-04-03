@@ -11,7 +11,7 @@ class DefaultFareFormatterTest {
     fun `should output fare in expected format`() {
         val expected = sampleOutput_1
         val formatter = DefaultFareFormatter()
-        val fare = Fare(Distance("Somewhere", "Nowhere", 1), 1, 1)
+        val fare = Fare(Distance("PUNE", "NASIK", 200), 2, 2500)
 
         val actual = formatter(fare)
 
